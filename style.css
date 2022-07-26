@@ -1,0 +1,39 @@
+
+#abc{
+  display:grid;
+  grid-template-columns:450px 1fr;
+}
+
+a {
+
+}
+.abc {
+  border-right:solid gray 1px;
+  margin:0px;
+  padding:65px;
+  padding-top:50px;
+}
+
+h1 {
+  font-size:50px;
+  text-align:center;
+  border-bottom:1px solid gray;
+  padding:20px;
+  margin:0;
+}
+
+#article{
+  padding-left: 55px;
+  padding-top: 22px;
+
+}
+@media(max-width:1330px){
+  h1 {
+border-bottom:none;
+}
+#abc{
+  display:block;
+}
+.abc {
+border-right:none;
+}
